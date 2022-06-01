@@ -103,3 +103,12 @@ hr {
 .white-text {
     color: #DEDEDE;
 }
+
+/* here is my footer */
+
+footer {
+    text-align: center;
+    background: hsl(193, 57%, 50%);
+    padding: 10px;
+    margin: 10px 0 0 0;
+}
