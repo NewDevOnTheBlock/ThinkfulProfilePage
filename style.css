@@ -1,3 +1,5 @@
+/* body style */
+
 body {
     margin:0;
     padding: 0;
@@ -5,6 +7,7 @@ body {
     background: hsl(0, 0%, 14%);
 }
 
+/* header elements below */
 header {
     box-sizing: border-box;
     background: hsl(193, 57%, 50%);
@@ -31,17 +34,19 @@ h2 {
     padding: 5px;
 }
 
+/* my general styles for my nav and h3 headers */
 h3 {
     size: 24px;
     color: white;
     margin: 10px 0;
+    padding: -20px 0 10px 0;
 }
 
 h1, h2, h3 {
     font-family:'Courier New', Courier, monospace;
 }
 
-ul {
+ul.nav-links {
     display: flex;
     justify-content: center;
     gap: 90px;
@@ -64,6 +69,8 @@ a:hover {
     background:hsl(219, 88%, 59%);
 }
 
+/* the main content section of my page */
+
 main {
     background: hsl(0, 0%, 14%);
     margin: 0;
@@ -74,4 +81,25 @@ img {
     display: block;
     margin: auto;
     padding: auto;
+}
+
+hr {
+    width: 800px;
+}
+
+.my-interests {
+    padding: 20px 300px;
+}
+
+.about {
+    margin: 24px;
+    padding: 64px;
+}
+
+.footer {
+    margin: 20px 400px;
+}
+
+.white-text {
+    color: #DEDEDE;
 }
